@@ -100,4 +100,4 @@ Perplexity AI is an emerging conversational search engine that combines the powe
 
 ---
 
-*This is a living document. Last updated: November 2024*
+*This is a living document. Last updated: {{ site.time | date: '%B %Y' }}*

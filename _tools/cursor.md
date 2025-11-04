@@ -206,4 +206,4 @@ Cursor is an AI-native code editor built from the ground up to integrate artific
 
 ---
 
-*This is a living document. Last updated: November 2024*
+*This is a living document. Last updated: {{ site.time | date: '%B %Y' }}*
