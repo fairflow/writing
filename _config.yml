@@ -30,4 +30,12 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor/
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
   - .gitignore
