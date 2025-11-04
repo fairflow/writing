@@ -3,6 +3,7 @@ layout: post
 title: "Ideas on using Perplexity"
 date: 2025-11-04 13:57:00 +0000
 categories: ai welcome
+permalink: /perplexity-ideas/
 ---
 
 1. 2 window development ideas
