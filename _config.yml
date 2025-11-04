@@ -1,0 +1,34 @@
+# Site settings
+title: AI Writing and Tools
+description: My writing on AI-related topics, including emerging tools and discussions
+author: fairflow
+email: your-email@example.com
+
+# Build settings
+theme: minima
+markdown: kramdown
+
+# GitHub Pages settings
+baseurl: "/writing"
+url: "https://fairflow.github.io"
+
+# Collections
+collections:
+  tools:
+    output: true
+    permalink: /tools/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "tools"
+    values:
+      layout: "page"
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+  - .gitignore
