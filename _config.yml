@@ -1,12 +1,29 @@
 # Site settings
-title: Writing
-description: My writing, especially on AI related issues, including code and discussions
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+title: AI Writing and Tools
+description: My writing on AI-related topics, including emerging tools and discussions
+author: fairflow
 
 # Build settings
-markdown: kramdown
 theme: minima
+markdown: kramdown
+
+# GitHub Pages settings
+baseurl: "/writing"
+url: "https://fairflow.github.io"
+
+# Collections
+collections:
+  tools:
+    output: true
+    permalink: /tools/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "tools"
+    values:
+      layout: "page"
 
 # Exclude from processing
 exclude:
@@ -21,3 +38,4 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+  - .gitignore
