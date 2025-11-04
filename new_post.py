@@ -8,14 +8,15 @@ This script:
 3. After editing, creates a new branch and pull request (optional)
 
 Usage:
-    python3 new-post.py "My Post Title"
-    python3 new-post.py "My Post Title" --categories "ai ml"
-    python3 new-post.py "My Post Title" --create-pr
+    python3 new_post.py "My Post Title"
+    python3 new_post.py "My Post Title" --categories "ai ml"
+    python3 new_post.py "My Post Title" --create-pr
 """
 
 import sys
 import os
 import argparse
+import time
 from datetime import datetime
 import subprocess
 import re
@@ -59,7 +60,6 @@ def create_post_file(title, categories=None, permalink=None):
     
     # Create front matter
     # Get timezone offset in format +0000
-    import time
     tz_offset = time.strftime('%z')
     if not tz_offset:
         tz_offset = '+0000'
