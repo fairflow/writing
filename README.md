@@ -26,12 +26,30 @@ bundle exec jekyll serve
 
 Then visit `http://localhost:4000/writing/`
 
+## Creating New Posts
+
+Use the automated post creation tool to quickly create new blog posts:
+
+```bash
+python3 new-post.py "My Post Title"
+```
+
+This will:
+- Create a new post file with proper Jekyll front matter
+- Include a permalink for the post
+- Open the file in your editor for content addition
+- Optionally create a branch and pull request with `--create-pr`
+
+See [tools/README.md](tools/README.md) for detailed usage instructions.
+
 ## Structure
 
 - `_config.yml` - Jekyll configuration
 - `index.md` - Homepage
+- `_posts/` - Blog posts
 - `_tools/` - Individual tool documentation pages
-- `tools/index.md` - Tools directory listing
+- `tools/` - Automation tools and utilities
+- `new-post.py` - Automated post creation script
 
 ## Contributing
 
