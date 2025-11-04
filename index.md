@@ -19,8 +19,7 @@ Explore the latest AI tools that are revolutionizing productivity and creativity
 
 Random nighttime thoughts
 
-- [Thoughts]({{ "/2025/11/04/perplexity-ideas/" | relative_url }})
-
+- [Thoughts]({{ /perplexity-ideas/ | relative_url }})
 
 ### About
 
