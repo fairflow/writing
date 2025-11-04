@@ -1,3 +1,10 @@
+---
+layout: post
+title: "Ideas on using Perplexity"
+date: 2025-11-04 13:57:00 +0000
+categories: ai welcome
+---
+
 1. 2 window development ideas
     1. REPL for languages such as F#
     2. Threads as paths through trees
