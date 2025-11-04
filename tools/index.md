@@ -10,8 +10,6 @@ This directory documents emerging AI tools that are transforming how we work, le
 
 ## Featured Tools
 
-<div class="tool-grid">
-
 ### Search & Research
 
 #### [Perplexity AI](/writing/tools/perplexity/)
@@ -40,8 +38,6 @@ An AI-native code editor that integrates powerful AI capabilities directly into 
 - Multiple AI model support
 
 **Best For:** Software development, code refactoring, learning codebases, debugging
-
-</div>
 
 ---
 
