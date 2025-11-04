@@ -15,6 +15,12 @@ Explore the latest AI tools that are revolutionizing productivity and creativity
 
 - [Perplexity AI](/writing/tools/perplexity/) - Next-generation AI-powered search and research
 - [Cursor](/writing/tools/cursor/) - AI-native code editor redefining software development
+### Thoughts on using Perplexity
+
+Random nighttime thoughts
+
+- [Thoughts](/writing/posts/perplexity_ideas/)
+
 
 ### About
 
