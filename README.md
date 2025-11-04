@@ -31,7 +31,7 @@ Then visit `http://localhost:4000/writing/`
 Use the automated post creation tool to quickly create new blog posts:
 
 ```bash
-python3 new-post.py "My Post Title"
+python3 new_post.py "My Post Title"
 ```
 
 This will:
@@ -49,7 +49,7 @@ See [tools/README.md](tools/README.md) for detailed usage instructions.
 - `_posts/` - Blog posts
 - `_tools/` - Individual tool documentation pages
 - `tools/` - Automation tools and utilities
-- `new-post.py` - Automated post creation script
+- `new_post.py` - Automated post creation script
 
 ## Contributing
 

@@ -2,7 +2,7 @@
 
 This directory contains automation tools for managing blog posts.
 
-## new-post.py
+## new_post.py
 
 A Python script to automate the process of creating new blog posts with proper Jekyll front matter.
 
@@ -30,7 +30,7 @@ A Python script to automate the process of creating new blog posts with proper J
 
 Create a new post:
 ```bash
-python3 new-post.py "My Post Title"
+python3 new_post.py "My Post Title"
 ```
 
 This will:
@@ -42,34 +42,34 @@ This will:
 
 Specify custom categories:
 ```bash
-python3 new-post.py "My Post Title" --categories "ai ml research"
+python3 new_post.py "My Post Title" --categories "ai ml research"
 ```
 
 Specify a custom permalink:
 ```bash
-python3 new-post.py "My Post Title" --permalink "/custom-url/"
+python3 new_post.py "My Post Title" --permalink "/custom-url/"
 ```
 
 Create a branch and pull request automatically:
 ```bash
-python3 new-post.py "My Post Title" --create-pr
+python3 new_post.py "My Post Title" --create-pr
 ```
 
 Skip opening the editor (useful for automation):
 ```bash
-python3 new-post.py "My Post Title" --no-edit
+python3 new_post.py "My Post Title" --no-edit
 ```
 
 Combine options:
 ```bash
-python3 new-post.py "My Post Title" --categories "ai tools" --create-pr
+python3 new_post.py "My Post Title" --categories "ai tools" --create-pr
 ```
 
 ### Workflow
 
 1. **Create the post**:
    ```bash
-   python3 new-post.py "My Awesome Post"
+   python3 new_post.py "My Awesome Post"
    ```
 
 2. **Edit the content**: The script opens the file in your editor. Add your content below the front matter (after the `---` line).
@@ -99,17 +99,17 @@ Add this to your `~/.bashrc` or `~/.zshrc` to make it permanent.
 
 Create a post about AI tools:
 ```bash
-python3 new-post.py "Exploring New AI Tools" --categories "ai tools"
+python3 new_post.py "Exploring New AI Tools" --categories "ai tools"
 ```
 
 Create a post and immediately create a PR:
 ```bash
-python3 new-post.py "My Research Findings" --categories "research" --create-pr
+python3 new_post.py "My Research Findings" --categories "research" --create-pr
 ```
 
 Create a post with a custom permalink:
 ```bash
-python3 new-post.py "Guide to Machine Learning" --permalink "/ml-guide/" --categories "ai ml tutorial"
+python3 new_post.py "Guide to Machine Learning" --permalink "/ml-guide/" --categories "ai ml tutorial"
 ```
 
 ### Tips

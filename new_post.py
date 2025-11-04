@@ -126,7 +126,29 @@ def create_branch_and_pr(filepath, title):
             print("No changes to commit.")
             return False
         
-        # Create and checkout new branch
+        # Check if we're already on a feature branch
+        result = subprocess.run(['git', 'rev-parse', '--abbrev-ref', 'HEAD'],
+                              capture_output=True, text=True, check=True)
+        current_branch = result.stdout.strip()
+        
+        # If we're not on main/master, just commit to current branch
+        if current_branch not in ['main', 'master']:
+            print(f"Currently on branch: {current_branch}")
+            print("Committing changes to current branch...")
+            
+            # Add the file
+            subprocess.run(['git', 'add', filepath], check=True)
+            
+            # Commit the changes
+            commit_message = f"Add new post: {title}"
+            subprocess.run(['git', 'commit', '-m', commit_message], check=True)
+            
+            print(f"\nChanges committed to branch {current_branch}")
+            print("To push your changes, run:")
+            print(f"  git push origin {current_branch}")
+            return True
+        
+        # We're on main/master, create a new branch
         print(f"Creating branch: {branch_name}")
         subprocess.run(['git', 'checkout', '-b', branch_name], check=True)
         
@@ -155,6 +177,7 @@ def create_branch_and_pr(filepath, title):
             print("\nNote: 'gh' CLI not found. Please create the pull request manually:")
             print(f"  Branch: {branch_name}")
             print(f"  Title: Add post: {title}")
+            print("\nOr visit: https://github.com/fairflow/writing/compare")
             
         return True
         
