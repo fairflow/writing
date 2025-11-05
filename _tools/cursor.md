@@ -14,6 +14,7 @@ Cursor is an AI-native code editor built from the ground up to integrate artific
 ## Key Features
 
 ### 1. AI-Powered Code Completion
+
 - **Tab to autocomplete**: Intelligent, context-aware suggestions
 - Multi-line code predictions
 - Understands your codebase context
@@ -21,6 +22,7 @@ Cursor is an AI-native code editor built from the ground up to integrate artific
 - Faster and more accurate than traditional autocomplete
 
 ### 2. Chat Interface (Cmd+K / Ctrl+K)
+
 - Ask questions about your code
 - Request code modifications in natural language
 - Explain complex code sections
@@ -28,6 +30,7 @@ Cursor is an AI-native code editor built from the ground up to integrate artific
 - Generate new functions and classes
 
 ### 3. Composer Mode
+
 - Multi-file editing capabilities
 - Make coordinated changes across your codebase
 - Refactor entire features at once
@@ -35,6 +38,7 @@ Cursor is an AI-native code editor built from the ground up to integrate artific
 - Maintain consistency across changes
 
 ### 4. Codebase Understanding
+
 - Indexes your entire codebase
 - Understands project structure and patterns
 - Provides context-aware suggestions
@@ -42,12 +46,14 @@ Cursor is an AI-native code editor built from the ground up to integrate artific
 - Helps navigate large codebases
 
 ### 5. Terminal Integration
+
 - AI assistance in the integrated terminal
 - Debug command-line errors
 - Get shell command suggestions
 - Understand terminal output
 
 ### 6. Multiple AI Models
+
 - GPT-4 for complex reasoning
 - Claude for large context windows
 - GPT-3.5 for fast iterations
@@ -56,24 +62,28 @@ Cursor is an AI-native code editor built from the ground up to integrate artific
 ## Use Cases
 
 ### Rapid Development
+
 - Write boilerplate code instantly
 - Generate test cases automatically
 - Create API endpoints from descriptions
 - Build UI components from specifications
 
 ### Code Understanding
+
 - Understand unfamiliar codebases quickly
 - Get explanations of complex algorithms
 - Learn best practices through AI suggestions
 - Document code automatically
 
 ### Refactoring and Maintenance
+
 - Modernize legacy code
 - Apply design patterns
 - Rename variables/functions safely
 - Restructure projects
 
 ### Debugging
+
 - Identify bug sources quickly
 - Get fix suggestions
 - Understand error messages
@@ -119,6 +129,7 @@ Cursor is an AI-native code editor built from the ground up to integrate artific
 ## Best Practices
 
 ### Effective Prompting
+
 - Be specific about what you want
 - Provide context when needed
 - Break complex tasks into smaller steps
@@ -126,6 +137,7 @@ Cursor is an AI-native code editor built from the ground up to integrate artific
 - Iterate on results
 
 ### Code Quality
+
 - Always review AI-generated code
 - Run tests after AI changes
 - Maintain coding standards
@@ -133,6 +145,7 @@ Cursor is an AI-native code editor built from the ground up to integrate artific
 - Keep security in mind
 
 ### Productivity Tips
+
 - Use keyboard shortcuts extensively
 - Let AI handle boilerplate
 - Focus on architecture and logic
@@ -142,11 +155,13 @@ Cursor is an AI-native code editor built from the ground up to integrate artific
 ## Privacy and Security
 
 ### Privacy Modes
+
 - **Privacy Mode**: Code not used for training
 - **Standard Mode**: May use code to improve models
 - Configure per workspace or globally
 
 ### Best Practices
+
 - Enable Privacy Mode for sensitive projects
 - Review what data is sent to AI
 - Don't commit API keys or secrets
@@ -163,18 +178,21 @@ Cursor is an AI-native code editor built from the ground up to integrate artific
 ## Integration with Existing Workflows
 
 ### VS Code Extensions
+
 - Most VS Code extensions work seamlessly
 - Import your VS Code configuration
 - Familiar interface and commands
 - Maintain your existing workflows
 
 ### Version Control
+
 - Git integration built-in
 - AI-assisted commit messages
 - Code review helpers
 - Conflict resolution assistance
 
 ### Languages and Frameworks
+
 - Supports all major programming languages
 - Framework-aware suggestions
 - Understands popular libraries

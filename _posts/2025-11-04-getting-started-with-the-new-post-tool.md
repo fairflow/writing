@@ -18,6 +18,7 @@ python3 new_post.py "Your Post Title"
 ```
 
 The tool will:
+
 1. Generate a properly formatted post file
 2. Add all the necessary Jekyll front matter
 3. Create a permalink automatically
@@ -28,12 +29,14 @@ The tool will:
 ### Automatic Slug Generation
 
 The tool converts your title into a URL-friendly slug:
+
 - "My New Post" becomes `my-new-post`
 - Handles special characters and multiple spaces
 
 ### Front Matter
 
 Every post includes:
+
 - `layout: post` - Uses the post layout
 - `title` - Your post title in quotes
 - `date` - Current date and time with timezone

@@ -29,11 +29,13 @@ A Python script to automate the process of creating new blog posts with proper J
 #### Basic Usage
 
 Create a new post:
+
 ```bash
 python3 new_post.py "My Post Title"
 ```
 
 This will:
+
 1. Create a new file in `_posts/` with the format `YYYY-MM-DD-my-post-title.md`
 2. Add Jekyll front matter with a permalink `/my-post-title/`
 3. Open the file in your default editor
@@ -41,26 +43,31 @@ This will:
 #### Advanced Options
 
 Specify custom categories:
+
 ```bash
 python3 new_post.py "My Post Title" --categories "ai ml research"
 ```
 
 Specify a custom permalink:
+
 ```bash
 python3 new_post.py "My Post Title" --permalink "/custom-url/"
 ```
 
 Create a branch and pull request automatically:
+
 ```bash
 python3 new_post.py "My Post Title" --create-pr
 ```
 
 Skip opening the editor (useful for automation):
+
 ```bash
 python3 new_post.py "My Post Title" --no-edit
 ```
 
 Combine options:
+
 ```bash
 python3 new_post.py "My Post Title" --categories "ai tools" --create-pr
 ```
@@ -68,6 +75,7 @@ python3 new_post.py "My Post Title" --categories "ai tools" --create-pr
 ### Workflow
 
 1. **Create the post**:
+
    ```bash
    python3 new_post.py "My Awesome Post"
    ```
@@ -79,6 +87,7 @@ python3 new_post.py "My Post Title" --categories "ai tools" --create-pr
 4. **Review the file** to ensure everything looks good.
 
 5. **Create a PR** (if not using `--create-pr`):
+
    ```bash
    git add _posts/YYYY-MM-DD-my-awesome-post.md
    git commit -m "Add new post: My Awesome Post"
@@ -98,16 +107,19 @@ Add this to your `~/.bashrc` or `~/.zshrc` to make it permanent.
 ### Examples
 
 Create a post about AI tools:
+
 ```bash
 python3 new_post.py "Exploring New AI Tools" --categories "ai tools"
 ```
 
 Create a post and immediately create a PR:
+
 ```bash
 python3 new_post.py "My Research Findings" --categories "research" --create-pr
 ```
 
 Create a post with a custom permalink:
+
 ```bash
 python3 new_post.py "Guide to Machine Learning" --permalink "/ml-guide/" --categories "ai ml tutorial"
 ```

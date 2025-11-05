@@ -14,18 +14,21 @@ Perplexity AI is an emerging conversational search engine that combines the powe
 ## Key Features
 
 ### 1. Conversational Search
+
 - Ask questions in natural language
 - Get comprehensive answers synthesized from multiple sources
 - Follow-up questions maintain context from previous queries
 - Conversational interface feels like chatting with a knowledgeable assistant
 
 ### 2. Source Citations
+
 - Every answer includes citations to source material
 - Transparent about where information comes from
 - Clickable references to verify claims
 - Multiple sources synthesized into coherent responses
 
 ### 3. Focus Modes
+
 - **All**: General search across the web
 - **Academic**: Searches academic papers and scholarly sources
 - **Writing**: Helps with writing tasks and content generation
@@ -33,6 +36,7 @@ Perplexity AI is an emerging conversational search engine that combines the powe
 - **Reddit**: Searches Reddit discussions and communities
 
 ### 4. Perplexity Pro Features
+
 - Access to advanced AI models (GPT-4, Claude 3, etc.)
 - Unlimited quick searches
 - Upload and analyze files (PDFs, images, etc.)
@@ -42,18 +46,21 @@ Perplexity AI is an emerging conversational search engine that combines the powe
 ## Use Cases
 
 ### Research and Learning
+
 - Quickly understand complex topics
 - Get summaries of recent developments
 - Find and compare information from multiple sources
 - Academic research with citation support
 
 ### Content Creation
+
 - Generate ideas with source backing
 - Fact-check while writing
 - Research competitors and trends
 - Find statistics and data points
 
 ### Professional Work
+
 - Market research and analysis
 - Technical problem-solving
 - Stay updated on industry news
