@@ -1448,11 +1448,7 @@ primarily qualitative framework into a genuine computational social science.
 
 ---
 
-## User Question: Mathematical Modelling
-
-That's a great summary of the different types of mathematical modelling and analysis. One niggle:
-P(σi∣{σj}j=i)=∑σ′exp(−βEi(σ′))exp(−βEi(σi)) [apologies for the missing symbols: I cut and pasted from the
-equation as you presented it]
+# that's a great summary of the different types of mathematical modelling and analysis.  One niggle: P(σi∣{σj}j=i)=∑σ′exp(−βEi(σ′))exp(−βEi(σi)) [apologies for the missing symbols: I cut and pasted from the equation as you presented it]
 
 doesn't look right. Ei(σ') above is only defined when σ'=σ_i which contradicts what I expect the sum to run over ie σ'
 != σ_i. The sum should surely be over σ_j where j!=i (is unequal to).
@@ -1547,10 +1543,7 @@ your background in complex dynamics makes you well-positioned to avoid such pitf
 
 ---
 
-## User Follow-up: Energy Function Definition
-
-Thanks, but that just makes no sense. Individuals are distinct from cultural states and E_j is not defined
-for cultural states. Is this an error of yours or are the equations copied from a cited source please?
+# thanks, but that just makes no sense.  individuals are distinct from cultural states and E_j is not defined for cultural states.  Is this an error of yours or are the equations copied from a cited source please?
 
 Thank you for your critical attention to the mathematics—your point is absolutely valid and highlights a subtle but
 important distinction:
@@ -1625,12 +1618,7 @@ mathematical or computational modeling in the spirit of Cultural Theory and stat
 
 ---
 
-## User Clarification: Bivariate Function Notation
-
-Sorry also I didn't read the previous section well enough where you defined σ_i and E_i. But E could well be
-a general function E(i,σ) which takes two parameters: 1 the individual i and 2 the state in which i could be
-found. Then the notation E_i(σ_i) is redundant, you don't need a family of functions if you allow a bivariate
-function
+# sorry also I didn't read the previous section well enough where you defined σ_i and E_i.  But E could well be a general function E(i,σ) which takes two parameters: 1 the individual i and 2 the state in which i could be found.  Then the notation E_i(σ_i) is redundant, you don't need a family of functions if you allow a bivariate function
 
 Absolutely, your refinement is mathematically elegant and correct. A general energy (or cost) function for modeling
 individual cultural states can and *should* be written as a bivariate function:

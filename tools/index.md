@@ -13,9 +13,11 @@ This directory documents emerging AI tools that are transforming how we work, le
 ### Search & Research
 
 #### [Perplexity AI](/writing/tools/perplexity/)
+
 An AI-powered conversational search engine that synthesizes information from multiple sources with citations. Perfect for research, fact-checking, and quick learning.
 
 **Key Features:**
+
 - Conversational search with natural language
 - Source citations for transparency
 - Multiple focus modes (Academic, Writing, YouTube, Reddit)
@@ -28,9 +30,11 @@ An AI-powered conversational search engine that synthesizes information from mul
 ### Development Tools
 
 #### [Cursor](/writing/tools/cursor/)
+
 An AI-native code editor that integrates powerful AI capabilities directly into the development workflow. Built on VS Code, it offers superior AI-assisted coding.
 
 **Key Features:**
+
 - AI-powered code completion and generation
 - Multi-file editing with Composer mode
 - Codebase understanding and indexing

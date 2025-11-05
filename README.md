@@ -35,6 +35,7 @@ python3 new_post.py "My Post Title"
 ```
 
 This will:
+
 - Create a new post file with proper Jekyll front matter
 - Include a permalink for the post
 - Open the file in your editor for content addition
