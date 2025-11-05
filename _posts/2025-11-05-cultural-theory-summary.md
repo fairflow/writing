@@ -361,7 +361,7 @@ its major developments:
 6. Douglas, Mary (1986). *How Institutions Think*. Syracuse: Syracuse University Press. Explores how institutions
    embody and reproduce cultural biases, addressing the relationship between individual cognition and collective
    memory.[^1_28][^1_3]
-7. **Douglas, Mary (1992). *Risk and Blame: Essays in Cultural Theory*. London: Routledge. A collection of essays
+7. **Douglas, Mary (1992).** *Risk and Blame: Essays in Cultural Theory*. London: Routledge. A collection of essays
    refining Cultural Theory and addressing its critics, with particular attention to concepts of accountability and
    social solidarity.[^1_47]
 8. **Thompson, Michael (1982).** "A Three Dimensional Model," in Douglas, Mary (ed.) *Essays in the Sociology of
