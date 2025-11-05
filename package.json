@@ -1,0 +1,15 @@
+{
+  "name": "writing",
+  "version": "1.0.0",
+  "description": "My writing, especially on AI related issues, including code and discussions.",
+  "scripts": {
+    "lint:md": "markdownlint-cli2 '**/*.md' '#node_modules'",
+    "lint:md:fix": "markdownlint-cli2 --fix '**/*.md' '#node_modules'"
+  },
+  "devDependencies": {
+    "markdownlint-cli2": "^0.11.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

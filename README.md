@@ -42,6 +42,30 @@ This will:
 
 See [tools/README.md](tools/README.md) for detailed usage instructions.
 
+## Linting
+
+This repository uses markdownlint to ensure consistent markdown formatting and catch common issues like bare URLs (MD034).
+
+### Running the Linter
+
+```bash
+# Install dependencies
+npm install
+
+# Check markdown files for issues
+npm run lint:md
+
+# Auto-fix issues where possible
+npm run lint:md:fix
+```
+
+### Configuration
+
+Markdown linting rules are configured in `.markdownlint.json`. Key rules include:
+
+- **MD034 (no-bare-urls)**: Ensures all URLs are properly formatted as markdown links or wrapped in angle brackets
+- **MD013 (line-length)**: Limits line length to 120 characters (excluding code blocks and tables)
+
 ## Structure
 
 - `_config.yml` - Jekyll configuration
