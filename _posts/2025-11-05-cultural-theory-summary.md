@@ -6,9 +6,9 @@ categories: ai-gen anthropology
 permalink: /cultural-theory-summary/
 ---
 
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" style="height:64px;margin-right:32px"/>
+![Perplexity AI Logo](https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png)
 
-# Cultural Theory Overview
+## Cultural Theory Overview
 
 Please provide the broad outlines of Cultural Theory as originated by the anthropologist Mary Douglas and co-authors and
 further developed by academics such as Michael Thompson and his co-authors. Sketch the origin and overall development of
@@ -19,7 +19,7 @@ develop a thorough understanding of Cultural Theory and its current frontiers.
 I have gathered sufficient information to provide a comprehensive response. Let me now synthesize this into a detailed
 report on Cultural Theory.
 
-# Cultural Theory: Origins, Development, and Research Frontiers
+## Cultural Theory: Origins, Development, and Research Frontiers
 
 Cultural Theory represents one of the most influential yet parsimonious frameworks in the social sciences for
 understanding how social organization and cultural worldviews mutually constitute one another. Originating in the
